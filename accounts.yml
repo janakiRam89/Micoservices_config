@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: accounts
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    password: root@123
+    url: jdbc:mysql://localhost:3306/spring_projects
+    username: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql:true
+    show-sql: true
+build: 
+  version: "1.0"
+account:
+  number: dfsds
+  amount: 1000
+  
