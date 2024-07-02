@@ -17,6 +17,6 @@ spring:
 build: 
   version: "1.0"
 account:
-  number: dfsds
+  number: "{cipher}ddfsds"
   amount: 1000
   
