@@ -18,5 +18,5 @@ build:
   version: "1.0"
 account:
   number: "{cipher}ddfsds"
-  amount: 1000
+  amount: 2000
   
