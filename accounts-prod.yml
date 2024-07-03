@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: accounts
+  profiles:
+    active: "prod"
+  config:
+    import: "optional:configserver:http://localhost:8071"
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - "*"
+        
+accounts:
+ message: "welcome to accounts prod micorservices"
+ contactDetails: 
+  name: "janaki ramayya"
+  email: "janakiramayya978@gmail.com"
+ onCallSupport:
+  -9182802103
+  -8978715972
