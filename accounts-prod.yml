@@ -20,3 +20,5 @@ accounts:
  onCallSupport:
   -9182802103
   -8978715972
+build:
+ version:1.2
