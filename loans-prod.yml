@@ -1,0 +1,26 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: loans
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    password: root@123
+    url: jdbc:mysql://localhost:3306/spring_projects
+    username: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql:true
+    show-sql: true
+loans:
+ message: "welcome to loans production micorservices"
+ contactDetails: 
+  name: "janaki ramayya"
+  email: "janakiramayya978_loan@gmail.com"
+ onCallSupport:
+  -9182802103
+  -897871597
