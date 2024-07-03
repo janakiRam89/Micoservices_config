@@ -15,7 +15,7 @@ spring:
         format_sql:true
     show-sql: true
 loans:
- message: "welcome to loans production micorservices"
+ message: "welcome to loans prod micorservices"
  contactDetails: 
   name: "janaki ramayya"
   email: "janakiramayya978_loan@gmail.com"
